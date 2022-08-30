@@ -114,18 +114,9 @@ def get_RSSI():
 #sendATcommand("AT+CLASS=A")
 #sendATcommand("AT+DEVADDR=26041238")
 
-
-
-
-'''
-sendATcommand("AT+APPEUI=6081F9B9B7BE3B72") 
-sendATcommand("AT+DEVEUI=24C5D9E632582086") 
-sendATcommand("AT+APPKEY=DAC61B0E7DFFD88A6F3312D3CFA40482")
-'''
-
-sendATcommand("AT+APPEUI=0000000000000000") 
-sendATcommand("AT+DEVEUI=CD4905D07ED5B370") 
-sendATcommand("AT+APPKEY=B01DA4B37D7CB4CE8B9C298CAC72D043")
+sendATcommand("AT+APPEUI=00000000xxxxxxxx") 
+sendATcommand("AT+DEVEUI=CD4905D0xxxxxxxx") 
+sendATcommand("AT+APPKEY=B01DA4B37D7CB4CE8B9C298Cxxxxxxxx")
 sendATcommand("AT+CLASS=C")
 sendATcommand("AT+SAVE")
 
